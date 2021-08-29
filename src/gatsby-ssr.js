@@ -31,7 +31,7 @@ exports.onRenderBody = (
     window.GATSBY_GTAG_PLUGIN_ANONYMIZE = ${anonymize};
 
     var options = {
-      send_page_view: false
+      send_page_view: true
     };
     if (${anonymize}) {
       options.anonymize_ip = true;

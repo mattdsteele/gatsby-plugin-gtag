@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-plugin-gtag",
+  "name": "gatsby-plugin-gtag-redactjs",
   "version": "1.0.13",
-  "description": "Gatsby plugin to add Google Analytics gtag.js (replacement for analytics.js) to a site. Includes Outbound Links.",
+  "description": "RedactJS-friendly Gatsby plugin to add Google Analytics gtag.js (replacement for analytics.js) to a site. Includes Outbound Links.",
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir .",
